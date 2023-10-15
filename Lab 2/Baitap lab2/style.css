@@ -1,0 +1,440 @@
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Gabarito", sans-serif;
+  background-color: #f3f3f3;
+}
+
+input:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.navbar-tab {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.navbar-logo {
+  margin-right: 590px;
+}
+
+.navbar-logo img {
+  height: 100px;
+}
+
+.navbar-paragraph {
+  display: flex;
+  font-family: "Gabarito", sans-serif;
+}
+.navbar-paragraph p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 17px;
+  font-family: "Gabarito", sans-serif;
+  color: gray;
+}
+
+.navbar-paragraph p:hover {
+  color: #605dec;
+}
+
+.navbar-sign {
+  margin-right: 20px;
+}
+
+.navbar-sign button {
+  margin-right: 20px;
+  width: 90px;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-family: "Gabarito", sans-serif;
+}
+
+.sign-up {
+  background-color: #605dec;
+  border: none;
+  color: white;
+}
+
+.sign-up:hover {
+  background-color: #3c3b94;
+}
+
+.sign-in {
+  border: none;
+  background-color: #f3f3f3;
+  color: gray;
+}
+
+.sign-in:hover {
+  color: white;
+  background-color: #605dec;
+}
+/* 
+------------ */
+.fake-div {
+  width: 100%;
+  height: 100px;
+}
+
+.img2 {
+  width: 870px;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+
+/* ----------- */
+.FindFlights-tab {
+  display: flex;
+  justify-content: center;
+  width: 1240px;
+  height: 43px;
+  margin-top: 40px;
+
+  margin-left: 60px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px 3px rgb(201, 201, 201);
+}
+.inputtype input {
+  width: 230px;
+  height: 39px;
+  background-color: #f3f3f3;
+  border: none;
+}
+
+.FindFlights-search button {
+  width: 91px;
+  height: 43px;
+  border: 1.5px gray solid;
+  border-radius: 3px;
+  background-color: rgb(96, 93, 236);
+  box-shadow: 1px 1px 1px 1px #605dec;
+  color: white;
+  font-size: 15px;
+}
+.FindFlights-search button:hover {
+  background-color: #3c3b94;
+}
+
+.inputtype i {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: gray;
+  font-weight: 600;
+  padding-top: 3px;
+}
+
+.inputtype {
+  border: gray 1.5px solid;
+  height: 41px;
+  border-radius: 3px;
+}
+
+.inputtype:hover {
+  border: #605dec 1.7px solid;
+  box-shadow: 1px 1px 1px 1px #605dec;
+}
+
+.Departure-IATA-code li {
+  list-style: none;
+  width: 246px;
+  height: 30px;
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-block-end: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: black;
+  padding-inline-start: 10px;
+  padding-block-start: 10px;
+}
+
+.Departure-IATA-code {
+  background-color: white;
+  max-height: 1000px;
+  width: 290px;
+  margin-left: 0px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(201, 201, 201);
+  padding-block-start: 10px;
+  padding-block-end: 1px;
+  margin-top: 2px;
+  position: absolute;
+  z-index: 2;
+  display: none;
+}
+
+.Departure-IATA-code ul {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.FindFlights-departure:hover {
+  .Departure-IATA-code {
+    position: absolute;
+    z-index: 2;
+    display: block;
+  }
+}
+
+.Departure-IATA-code li:hover {
+  background-color: #605dec;
+  color: white;
+}
+
+.Arrival-IATA-code li {
+  list-style: none;
+  width: 246px;
+  height: 30px;
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-block-end: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: black;
+  padding-inline-start: 10px;
+  padding-block-start: 10px;
+}
+
+.Arrival-IATA-code {
+  background-color: white;
+  max-height: 1000px;
+  width: 290px;
+  margin-left: 0px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(201, 201, 201);
+  padding-block-start: 10px;
+  padding-block-end: 1px;
+  margin-top: 2px;
+  position: absolute;
+  z-index: 2;
+  display: none;
+}
+
+.Arrival-IATA-code ul {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.FindFlights-arrival:hover {
+  .Arrival-IATA-code {
+    position: absolute;
+    z-index: 2;
+    display: block;
+  }
+}
+
+.Arrival-IATA-code li:hover {
+  background-color: #605dec;
+  color: white;
+}
+
+/* ------------ */
+
+.Tour-tab {
+  margin-top: 100px;
+}
+
+.Tour-heading {
+  font-size: 25px;
+  color: #777d98;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.Tour-heading b {
+  color: #605dec;
+}
+
+.Tour-card img {
+  width: 400px;
+  height: 350px;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.Tour-container {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 1270px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.Tour-card {
+  width: 400px;
+  height: 435px;
+  box-shadow: 1px 1px 3px 3px rgb(201, 201, 201);
+  border-radius: 15px;
+}
+
+.place-a-price {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.Tour-place {
+  color: #898ea6;
+}
+
+.Tour-price {
+  color: #898ea6;
+}
+
+.Tour-place b {
+  color: #605dec;
+}
+
+.Tour-description {
+  margin-left: 20px;
+  margin-top: 13px;
+  color: #7c8db0;
+  font-size: 16px;
+}
+
+.Big-Tour-card {
+  width: 1270px;
+  height: 480px;
+  box-shadow: 1px 1px 3px 3px rgb(201, 201, 201);
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+}
+
+.Big-Tour-card img {
+  width: 1270px;
+  height: 400px;
+  object-fit: cover;
+
+  border-radius: 15px 15px 0px 0px;
+}
+
+.Tour-title {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.Show-all {
+  font-size: 20px;
+  color: #777d98;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 100;
+}
+
+/* 
+----------- */
+
+.Tour-2-tab {
+  margin-top: 100px;
+}
+
+.Tour-2-heading {
+  font-size: 25px;
+  color: #777d98;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.Tour-2-heading b {
+  color: #3acbb1;
+}
+
+.Tour-2-card img {
+  width: 400px;
+  height: 350px;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.Tour-2-container {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 1270px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.Tour-2-card {
+  width: 400px;
+  height: 465px;
+  box-shadow: 1px 1px 3px 3px rgb(201, 201, 201);
+  border-radius: 15px;
+}
+
+.place-a-price {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+
+  font-size: 16.5px;
+}
+
+.Tour-2-place {
+  color: #6e7491;
+}
+
+.Tour-2-place b {
+  color: #3acbb1;
+}
+
+.Tour-2-description {
+  margin-left: 20px;
+  margin-top: 8px;
+  color: #7c8db0;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.Tour-2-title {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.Show-all {
+  font-size: 20px;
+  color: #777d98;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 100;
+}
+
+.Tour-2-btn {
+  width: 230px;
+  height: 50px;
+  margin-left: 570px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  border-radius: 6px;
+  border: none;
+  background-color: #605dec;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.Tour-2-btn:hover {
+  background-color: #3c3b94;
+}

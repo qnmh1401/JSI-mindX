@@ -1,0 +1,91 @@
+[
+  {
+    "ID": 1,
+    "IATA": "SGN"
+  },
+  {
+    "ID": 2,
+    "IATA": "HAN"
+  },
+  {
+    "ID": 3,
+    "IATA": "DAD"
+  },
+
+  {
+    "ID": 4,
+    "IATA": "VDO"
+  },
+  {
+    "ID": 5,
+    "IATA": "HPH"
+  },
+  {
+    "ID": 6,
+    "IATA": "VII"
+  },
+  {
+    "ID": 7,
+    "IATA": "HUI"
+  },
+  {
+    "ID": 8,
+    "IATA": "CXR"
+  },
+  {
+    "ID": 9,
+    "IATA": "DLI"
+  },
+  {
+    "ID": 10,
+    "IATA": "UIH"
+  },
+  {
+    "ID": 11,
+    "IATA": "VCA"
+  },
+  {
+    "ID": 12,
+    "IATA": "PQC"
+  },
+  {
+    "ID": 13,
+    "IATA": "DIN"
+  },
+  {
+    "ID": 14,
+    "IATA": "THD"
+  },
+  {
+    "ID": 15,
+    "IATA": "VDH"
+  },
+  {
+    "ID": 16,
+    "IATA": "VCL"
+  },
+  {
+    "ID": 17,
+    "IATA": "TBB"
+  },
+  {
+    "ID": 18,
+    "IATA": "PXU"
+  },
+  {
+    "ID": 19,
+    "IATA": "BMV"
+  },
+  {
+    "ID": 20,
+    "IATA": "VKG"
+  },
+  {
+    "ID": 21,
+    "IATA": "CAH"
+  },
+  {
+    "ID": 22,
+    "IATA": "VCS"
+  }
+]
