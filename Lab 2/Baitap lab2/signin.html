@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up for Trimpa</title>
+    <link rel="stylesheet" href="signin.css" />
+  </head>
+  <body>
+    <form role="form" autocomplete="off" action="index.html">
+      <div class="signin-form">
+        <h1>Sign up for Trimpa</h1>
+        <p class="description">
+          Trimpa is totally free to use. Sign up using your email adress of
+          phone number below to get started
+        </p>
+        <input
+          id="inputemail"
+          class="input"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <p id="invalidemail" class="alert"></p>
+
+        <input
+          id="inputpass"
+          class="input"
+          type="password"
+          placeholder="Password"
+        />
+        <p id="invalidpass" class="alert"></p>
+        <div class="input-tab">
+          <input class="input-checkbox" name="agree" type="checkbox" />
+          <label for="agree">I agree to the terms and conditions</label>
+
+          <input class="input-checkbox" name="send" type="checkbox" />
+          <label for="send">Send me the latest deal alerts</label>
+        </div>
+        <button class="btn" id="btn" type="submit">Create account</button>
+      </div>
+    </form>
+
+    <script src="signin.js"></script>
+  </body>
+</html>
