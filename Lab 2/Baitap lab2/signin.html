@@ -3,17 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign up for Trimpa</title>
+    <title>Sign in for Trimpa</title>
     <link rel="stylesheet" href="signin.css" />
   </head>
   <body>
-    <form role="form" autocomplete="off" action="index.html">
+    <form role="form" autocomplete="off">
       <div class="signin-form">
-        <h1>Sign up for Trimpa</h1>
+        <h1>Sign in for Trimpa</h1>
         <p class="description">
           Trimpa is totally free to use. Sign up using your email adress of
           phone number below to get started
         </p>
+        <input
+          id="inputname"
+          class="input"
+          type="text"
+          placeholder="First name"
+        />
+        <p id="invalidemail" class="alert"></p>
+
         <input
           id="inputemail"
           class="input"
@@ -37,9 +45,14 @@
           <label for="send">Send me the latest deal alerts</label>
         </div>
         <button class="btn" id="btn" type="submit">Create account</button>
+        <button class="btn" id="btnLogInWithGG" type="submit">
+          Log in with google
+        </button>
+        <button class="btn" id="btnLogOutWithGG" type="submit">Sign out</button>
+        <button class="btn" id="btnRegister" type="submit">Sign up</button>
       </div>
     </form>
 
-    <script src="signin.js"></script>
+    <script type="module" src="signin.js"></script>
   </body>
 </html>
