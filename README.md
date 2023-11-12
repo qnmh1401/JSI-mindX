@@ -1,2 +1,0 @@
-"# JSI" 
-"# JSI-mindX" 
